@@ -1,0 +1,66 @@
+.pd15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.pd0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.pd0All{
+    padding: 0;
+}
+.mR0{
+    margin-left: 0;
+    margin-right: 0;
+}
+.mB0{
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.notW{
+   font-style: normal;
+}
+.w100{
+    width: 100px;
+}
+.red{
+    color: red;
+}
+.LH30{
+    line-height: 30px;
+}
+.midI{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+i:hover{
+    color: red;
+    cursor: pointer;
+}
+.spanHover span:hover{
+    color: red;
+}
+.fold{
+    float: left;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.upImg{
+    width: 16px;
+    height: 16px;
+    background-image: url("/plugins/actionCategory/img/up.png");
+    background-size: 100% 100%;
+}
+.downImg{
+    width: 16px;
+    height: 16px;
+    background-image: url("/plugins/actionCategory/img/down.png");
+    background-size: 100% 100%;
+}
+.secondList{
+    display: none;
+}
+ .tbody >tr>td{
+    text-align: left !important;
+ }

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+.mp {
+    margin: 0;
+    padding: 0;
+}
+
+.h {
+    height: 45px;
+}
+
+.select2-dropdown {
+    z-index: 3050 !important;
+}
+
+.CP-parent:hover {
+    background-color: #d1dade;
+}
+
+.prefix {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ddd;
+}
+
+.load-text {
+    margin-top: 3%;
+}
+
+div#rbac-container {
+    position: absolute;
+    top: 0;
+    left: 43%;
+    z-index: 4050 !important;
+}
+
+.tip-warning, .tip-success, .tip-error {
+    padding: 33px;
+    width: 300px;
+    color: white;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.tip-error {
+    background-image: linear-gradient(to right, #d9534f 0, #c9302c 100%) !important;
+
+}
+
+.tip-success {
+    background-image: linear-gradient(to right, #5cb85c 0, #449d44 100%) !important;
+}
+
+.tip-warning {
+    background-image: linear-gradient(to right, #f0ad4e 0, #ec971f 100%) !important;
+}
+
+.tip-warning:hover {
+    -webkit-box-shadow: 0 0 10px yellow inset;
+    -moz-box-shadow: 0 0 10px yellow inset;
+    -o-box-shadow: 0 0 10px yellow inset;
+}
+
+.tip-success:hover {
+    -webkit-box-shadow: 0 0 10px green inset;
+    -moz-box-shadow: 0 0 10px green inset;
+    -o-box-shadow: 0 0 10px green inset;
+}
+
+.tip-error:hover {
+    -webkit-box-shadow: 0 0 10px red inset;
+    -moz-box-shadow: 0 0 10px red inset;
+    -o-box-shadow: 0 0 10px red inset;
+}
+
+.tip-warning:hover, .tip-success:hover, .tip-error:hover {
+    cursor: pointer;
+}
+
+.m1 {
+    font-size: 18px;
+}
+
+.m2 {
+    font-size: 15px;
+}
+
+.MTPT0 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}

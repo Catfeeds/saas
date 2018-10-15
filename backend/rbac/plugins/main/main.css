@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.plugin {
+    line-height: 30px;
+}
+
+.basic-role {
+    display: none;
+}
+
+.wrap-tr:hover {
+    background-color: #d1dade;
+}
+
+.wrap-tr:hover .basic-role {
+    display: block;
+    cursor: pointer;
+}
+
+.load-wrap {
+    font-size: 17px;
+    color: #888;
+}
+
+.load-img {
+    width: 100px;
+    height: 100px;
+}
+

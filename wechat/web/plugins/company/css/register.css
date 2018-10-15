@@ -1,0 +1,69 @@
+#register .weui-cell{margin: 20px 10px;
+    border: solid 1px #e5e5e5;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;}
+#register label{margin-bottom: 0 !important;
+    color: #999;
+    font-size: 16px;}
+#register .weui-cell:before{border-top: none;}
+#submitBtn{
+    width: 100%;height: 50px;position: fixed;
+    left: 0; bottom: 0;
+}
+#submitBtn button{
+    border: none;background-color: #1aad19;
+    color: #FFF;}
+#register .weui-cells{margin-top: 0 !important;}
+#register .weui-cells:after{border-bottom: none !important;}
+
+
+/*信息提示信息样式*/
+/*dialog ����meg ��ʽ*/
+
+.nspop_megcontainer {
+    position: fixed;
+    top: 12px;
+    width: 100%;
+    z-index: 999;
+
+}
+.nspop_megcontainer .main {
+    padding: 8px;
+    background-color: #030303;
+    width: 18em;
+    margin: auto;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+.nspop_megcontainer .textContent {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+@keyframes  ttanimations {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity:1
+    }
+}
+.myactive {
+    -webkit-animation-name: ttanimations;
+    animation-name: ttanimations;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+.listForm img{
+    width: 60%;
+    height:auto;
+}
+.bGgrey{
+    background-color: #d9d9d9;
+}
+html{height: 100%;background-color: #FFF;}

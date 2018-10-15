@@ -1,0 +1,107 @@
+/**
+ * 手机管理 - 广告设置 - 手机广告投放设置
+ * @author zhujunzhe@itsports.club
+ * @create 2018/1/6 pm
+ */
+.advertisingSiteContent{
+    width: 100%;
+    height: 100%;
+}
+.w100{
+    width: 100px;
+}
+.h34{
+    height: 34px;
+}
+.mr0{
+    margin-left: 0;
+    margin-right: 0;
+}
+.mT20{
+    margin-top: 20px;
+}
+.red{
+    color: red;
+}
+.uploadImgDiv{
+    width:100px;
+    height: 100px;
+    position: relative;
+}
+.uploadImgBtn{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.upImg{
+    width: 100px;
+    height: 100px;
+}
+.upLoadInput{
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    cursor: pointer;
+}
+.lineH30{
+    line-height: 30px;
+}
+.poster{
+    background: #CCCCCC;
+    width: 260px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.poster2{
+    width: 260px;
+    height: 400px;
+    margin: 0 auto;
+}
+.img2{
+    width: 260px;
+    height: 400px;
+}
+.img1{
+    width: 60px;
+    height: 60px;
+    z-index: 900;
+}
+.mL{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.pd0{
+    padding-left: 0;
+    padding-right: 0;
+}
+td a:hover{
+    color:red;
+}
+.btnStyle{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+/*********去除数值框箭头***********/
+.deal::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+/*防止select2不会自动失去焦点*/
+.select2-container {
+    z-index: 16000 !important;
+    height: 30px;
+}
+#redactAdvertisingModal .select2-container{
+    height: auto;
+}
+
+.select2-drop-mask {
+    z-index: 15990 !important;
+}
+
+.select2-drop-active {
+    z-index: 15995 !important;
+}

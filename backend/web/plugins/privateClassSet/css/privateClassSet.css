@@ -1,0 +1,130 @@
+.setUpContent{
+    width: 100%;
+    height: 100%;
+}
+.headTab ul li a{
+    border: none;
+    margin-right: 0;
+}
+.headTab ul li a:hover{
+    background: none;
+}
+.headTab .headUl .active{
+    border : none;
+    border-bottom: 2px solid #0d8ddb;
+}
+.mT20{
+    margin-top: 20px;
+}
+.mB10{
+    margin-bottom: 10px;
+}
+.fl{
+    float: left;
+}
+.w16{
+    width: 16px;
+    height: 16px;
+}
+.h34{
+    height: 34px;
+}
+.midA{
+    margin:0 20px;
+}
+.aHover:hover{
+    color: red;
+}
+.classThead{
+    background: #f5f5f5;
+}
+.w100{
+    width: 100px;
+}
+.pd0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.lH30{
+    line-height: 30px;
+}
+.red{
+    color: red;
+}
+.modalMain{
+    border : 1px solid #c0c4cd;
+    padding: 10px;
+}
+.mr0{
+    margin-left: 0;
+    margin-right: 0;
+}
+.pd4{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+/*防止select2不会自动失去焦点*/
+.select2-container {
+    z-index: 16000 !important;
+    height: 30px;
+}
+#addClassSetModal .select2-container{
+    height: auto;
+}
+
+ .select2-drop-mask {
+    z-index: 15990 !important;
+}
+
+ .select2-drop-active {
+    z-index: 15995 !important;
+}
+.modal {
+    overflow: auto !important;
+}
+/**************************/
+.fileTab ul .active a{
+    border : none;
+     background: #ffffff !important;
+}
+.fileLi span{
+    display: inline-block;
+}
+.firstLi,.topLi{
+    height: 50px;
+    background-color: #F5F5F5;
+    padding: 0;
+    line-height: 50px
+}
+.firstLi span,.topLi span{
+    font-weight: 900;
+}
+.mL8{
+    margin-left: 8px;
+}
+.mT10{
+    margin-top: 10px;
+}
+.midSpan{
+    margin: 0 8px;
+}
+.pd50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.white{
+    color: #ffffff;
+}
+.mL10{
+    margin-left: 10px;
+}
+.homePageSearch .select2-container{
+    z-index: 10 !important;
+}
+

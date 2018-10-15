@@ -1,0 +1,123 @@
+/**
+ * 团课统计- 团课统计 、团课环比- 最受欢迎教练、最受欢迎时段、最受欢迎课程、课程对比
+ * @author zhujunzhe@itsports.club
+ * @create 2018/1/26 am
+ */
+.teamClassContent{
+    width: 100%;
+    height: 100%;
+    height: auto;
+}
+.textC{
+    text-align: center;
+}
+/*******顶部选项卡样式**********/
+#myTab{
+    display: flex;
+    justify-content: center;
+}
+#myTab li a{
+    font-size: 20px;
+}
+#myTab .active a{
+    color: #00cc00;
+    background:none;
+    border:none;
+}
+/*******主要内容区样式**********/
+.rowContent{
+    background: #ffffff;
+    width: 100%;
+    min-height: 800px;
+    height: auto;
+    margin-left: 2px;
+}
+.pd0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.mg0{
+    margin-left: 0;
+    margin-right: 0;
+}
+select{
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+}
+.showSelect select:nth-of-type(1){
+    width: 44%;
+    float: left;
+}
+.showSelect select:nth-of-type(2){
+    width: 44%;
+    float: right;
+}
+.timeSelect select{
+    width: 30%;
+}
+.dateSpan{
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
+    border:1px solid #c0c4cd;
+    border-right:none;
+    text-align: center;
+    float: left;
+}
+.dateInput{
+    width: 70%;
+    float: left;
+}
+/*******课程环比样式**********/
+#contrast .dateSpan{
+    width: 40%;
+}
+#contrast .dateInput{
+    width: 60%;
+}
+.contrastTimeSelect select{
+    width: 30%;
+}
+.contrastTimeSelect select:nth-of-type(2){
+}
+/*******表格样式**********/
+.table{
+    border-top: 1px solid #c0c0c0;
+    margin-top: 10px;
+}
+.table thead tr th i{
+    display:inline-block;
+    width: 10px
+}
+.table thead tr th i span{
+    width: 10px;
+    height:8px;
+    font-size: 8px;
+    float: left
+}
+/***模态框样式***/
+.modalLeft{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 540px;
+    height: auto;
+    border-right: 1px solid #e5e5e5;
+    padding-left: 8%;
+}
+.modalLeft h2{
+    font-weight: 900;
+}
+.modalRight{
+     margin-top: 0;
+     border-top:none;
+}
+.modal-body{
+    padding: 0;
+}
+.modalBtn{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}

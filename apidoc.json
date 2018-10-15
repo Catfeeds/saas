@@ -1,0 +1,11 @@
+{
+  "name"       : "云运动 - 接口文档",
+  "version"    : "0.1.0",
+  "description": "此文档是属于云运动的接口文档",
+  "title"      : "云运动 - 接口 ",
+  "url"        : "http://qa.aixingfu.net",
+  "template":    {
+    "withCompare"   : true,
+    "withGenerator" : true
+  }
+}

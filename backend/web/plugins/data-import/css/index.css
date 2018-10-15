@@ -1,0 +1,23 @@
+.disB {
+    display: inline-block;
+}
+.w150 {
+    width: 150px;
+}
+.disSpan {
+    padding: 3px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.seMix {
+    padding: 0 5px;
+    font-weight: normal;
+    width: 150px
+}
+.red {
+    background: #f267784d !important;
+}
+.white {
+    background-color: white !important;
+}

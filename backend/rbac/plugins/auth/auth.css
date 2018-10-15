@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.senior:hover {
+    background-color: #d1dade;
+    cursor: pointer;
+}
+
+.senior-role {
+    display: none;
+}
+
+.senior:hover .senior-role {
+    display: block;
+    cursor: pointer;
+}
+
+.detail {
+    display: none;
+}
+
+.PT, .allot-per, .CP {
+    cursor: pointer;
+}
+
+.CP:hover {
+    border: 1px solid #d1dade;
+    background-color: whitesmoke;
+}
+
+.allot-per:hover {
+    background-color: whitesmoke;
+}
+
+.load-wrap {
+    margin-top: 25%;
+    font-size: 17px;
+    color: #888;
+}
+
+.load-img {
+    width: 120px;
+    height: 120px;
+}
+
+.new-per-box {
+    background-color: whitesmoke;
+}
+
+.in-border:hover{
+    -webkit-box-shadow: 0 0 10px white inset;
+    -moz-box-shadow: 0 0 10px white inset;
+    -o-box-shadow: 0 0 10px white inset;
+}

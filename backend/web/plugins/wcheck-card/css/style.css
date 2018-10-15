@@ -1,0 +1,298 @@
+.pd0 {
+    padding: 0;
+}
+.disB {
+    display: inline-block;
+}
+div#courseUiPrints,
+div#uiPrints{
+    /*height: 70px;*/
+    margin: 0;
+    padding: 0;
+}
+div#printsOneDay,
+div#field,
+div#coursePrints,
+div#prints{
+    display: none;
+}
+div#uiOneDayPrints ul,
+div#fieldDiv ul,
+div#courseUiPrints ul,
+div#uiPrints ul{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    /*height: 30px;*/
+}
+div#uiOneDayPrints ul li,
+div#courseUiPrints ul li,
+div#fieldDiv ul li,
+div#uiPrints ul li {
+    /*width:200px;*/
+    /*!*text-align: left;*!*/
+    /*list-style: none;*/
+    /*margin-left: 0;*/
+    margin-bottom: 20px;
+}
+.group .nav {
+    border: 0;
+}
+.nav .active a {
+    padding: 0;
+    border: 0 !important;
+    border-bottom: 3px solid #19a9d5 !important;
+}
+.group .nav a {
+    padding: 0 !important;
+}
+.group .nav li {
+    padding: 0 10px;
+}
+.panel {
+    border: 0 !important;
+    /*margin-bottom: 20px;*/
+    border-radius: 0;
+}
+.content-center {
+    border-top: 8px solid #f5f5f5 !important;
+    /*border-left: 8px solid #f5f5f5 !important;*/
+}
+.group-ul {
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+}
+.group-ul > li {
+    line-height: 3;
+}
+.btn-span > span {
+    color: #00b0e8;
+    padding: 0 5px;
+}
+.btn-group {
+    text-align: center;
+}
+.notW {
+    color: #00b0e8;
+}
+.table-bordered td {
+    /*text-align: center !important;*/
+}
+.orderMenu {
+    background: #00b0e8;
+    color: white;
+}
+.orderMenu a{
+    background: #00b0e8;
+    color: white;
+}
+.select {
+    padding: 0 5px;
+    border-radius: 5px;
+}
+.span-text {
+    padding-top: 15px;
+    white-space: nowrap;
+}
+.modal-body .panel-body {
+    border: 1px solid #ddd;
+}
+.border .panel-body {
+    border: 1px solid #ddd;
+}
+.modal-body .pad {
+    padding: 0 75px;
+}
+.border .pad {
+    padding: 0 75px;
+}
+.updateOrder .select1 {
+    height: 30px;
+    width: 200px;
+}
+.pd27 {
+    padding-left: 27px;
+}
+.updateOrder .span {
+    padding: 2px 10px;
+    border: 1px solid;
+    background: #3e87e3;
+    color: white;
+}
+.updateOrder .span2 {
+    padding: 2px 10px;
+    border: 1px solid;
+    background: white;
+}
+.mgL {
+    margin-left: -25px
+}
+.wth {
+    width: 200px;
+}
+.wd83 {
+    width: 80px;
+}
+.size20 {
+    font-size: 17px;
+    font-weight: bold;
+}
+.size13 {
+    font-size: 15px;
+    color: #8d8d8d;
+}
+.size12 {
+    font-size: 12px;
+    color: #8d8d8d;
+}
+.mgB {
+    margin-bottom: 5px;
+}
+.nomal {
+    color: #27c24c;
+}
+.leavel {
+    color: #eea236;
+}
+.ladda-button .ladda-label {
+    /*height: 300px !important;*/
+    width: 100% !important;
+}
+.statisticsFlag{
+    width: 130px;
+    height: 80px;
+    border-radius: 6px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.notSign4{
+    background: #f9c24e;
+}
+.notSign1{
+    background: #fd8887;
+}
+.notSign2{
+    background: #73b6fb;
+}
+.notSign3{
+    background: #55d587;
+}
+.notSign span:nth-child(1) {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.notSign span:nth-child(2) {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.aa img {
+    width: 10%;
+}
+.aa {
+    border: 1px solid #ddd;
+    border-top: 0;
+}
+.ibox-content p {
+    font-size: 18px;
+}
+.spanCenterHeight {
+    left: inherit !important;
+}
+.totalRowsDiv {
+    width: 10% !important;
+}
+.seat {
+    width: 47px !important;
+    height: 82px !important;
+}
+.seatFlag {
+    width: 30px !important;
+    height: 40px !important;
+    margin-bottom: 0 !important;
+}
+.centerHeight {
+    padding-left: 30px !important;
+}
+.centerHeight span {
+    font-size: 18px !important;
+    padding-left: 15px;
+}
+.set1 span {
+    position: initial !important;
+    bottom: inherit !important;
+}
+.set1 .name {
+    background: white;
+    border: 1px solid #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.blue {
+    color: rgb(0, 148, 255) !important;
+}
+.pp::-webkit-scrollbar {
+    display: none;
+}
+.boxShowNone::-webkit-scrollbar {
+    display: none;
+}
+.disAbled {
+    color: #ddd !important;
+}
+.cardBord{
+    height: 180px;
+    margin: 0 auto 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f2f6f7;
+    position: relative;
+}
+.check2{
+    border: 3px solid #27c24c;
+}
+.cursorPointer{
+    cursor: pointer;
+}
+.selTime {
+    color: #00b0e8;
+}
+.fixTable thead, .fixTable tbody{
+    display:block;
+    overflow-y: scroll;
+ }
+.fixTable thead tr,.fixTable tbody tr{
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+.mm p {
+    font-size: 12px !important;
+}
+.minHeight {
+    height: 0 !important;
+}
+.searchDetial {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 12px;
+    color: #73b6fb;
+}
+.mT20 {
+    margin-top: 20px;
+}
+.mT05 {
+    margin-top: 5px;
+}
+.checkUl {
+    min-height: 300px !important;
+}
